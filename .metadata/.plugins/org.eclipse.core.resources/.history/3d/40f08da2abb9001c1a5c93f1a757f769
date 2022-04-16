@@ -1,0 +1,34 @@
+
+public class JavaLinkedin {
+	/*
+	Object message() {
+		return "Hello!";
+	}
+	*/
+	static int count=0;
+	public static void main(String[] args) {
+	
+		/*
+		System.out.print(new JavaLinkedin().message());
+		System.out.print(new Main2().message());
+		*/
+		if(count<3) {
+			count+=1;
+			return;
+			//main(null);			
+		}else {
+			return;
+		}
+		System.out.println("Hello Word!");
+	}
+}
+
+/*
+class Main2 extends JavaLinkedin {
+	
+	String message() {
+		return "World!";
+	}
+	
+}
+*/

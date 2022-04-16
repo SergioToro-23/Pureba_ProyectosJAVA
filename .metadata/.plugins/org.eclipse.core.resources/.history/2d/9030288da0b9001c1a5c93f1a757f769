@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList_ejemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List list= new ArrayList();
+		list.add("hello");
+		System.out.println(list);
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\ARCHIVO TORO MENDOZA\3-SERGIO ANDRES\TRABAJO\Cursos de programacion\Cursos Java\Java Youtube\.metadata\.plugins\org.eclipse.jdt.core
+438265116.index
+3701531455.index
+1865797976.index

@@ -1,0 +1,55 @@
+package poo;
+
+import java.util.*;
+
+public class UnicoFichero_Empleado {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Empleado object=new Empleado();
+		
+		
+	}
+
+}
+
+class Empleado{
+	
+	public Empleado(String nom, double sue, int agno, int mes, int dia) {
+		nombre = nom;
+		sueldo = sue;
+		//uso de clase gregorian calendar
+		GregorianCalendar calendario=new GregorianCalendar(agno, mes-1,dia);
+		altaContrato = calendario.getTime();
+		
+	}
+	
+	//getters
+	public String getter_nombre() {		
+		return nombre;
+	}
+	public double getter_sueldo() {		
+		return sueldo;
+		}
+	public Date getter_fecha() {		
+		return altaContrato;
+	}
+	
+	
+	
+	//Setter
+		public void setter_subeSueldo(double porcentaje) {		
+			// se setea el aumento de sueldo
+			double aumento=sueldo*porcentaje/100;
+			sueldo+=aumento;
+		}
+	
+	
+	
+	private String nombre;
+	private double sueldo;
+	private Date altaContrato;
+	
+	
+}

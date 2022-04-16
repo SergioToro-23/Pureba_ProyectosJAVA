@@ -1,0 +1,42 @@
+package poo;
+
+public class Coche {
+
+	//Atributos y con private se hace uso del encapsulamiento
+	//solo se pueden modificar desde esta clase
+	private int ruedas;
+	private int largo;
+	private int ancho;
+	private int motor;
+	private int peso_plataforma;
+	String color;
+	int peso_total;
+	boolean asientos_cuero, climatizador;
+	
+	 //Constructor
+	public Coche() {
+		ruedas=4;
+		largo=2000;
+		ancho=300;
+		motor=1600;
+		peso_plataforma=500;
+	}
+	
+	//metodo getter(no modifica solo retorna)
+	public String getter_largo() {
+		
+		return "el largo del coche es " + largo;
+	}
+	 //metodo setter(no devuleve, solo modifica)
+	public void setter_color() {
+		
+		color="azul";
+	}
+	//otro getter
+	public String getter_color() {
+		
+		return "el color del coche es " + color;
+	}
+	
+	
+}

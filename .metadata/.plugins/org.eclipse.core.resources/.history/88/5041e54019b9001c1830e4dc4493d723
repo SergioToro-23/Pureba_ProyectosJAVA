@@ -1,0 +1,16 @@
+package poo;
+
+public class Uso_Coche {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//INSTANCIAR UNA CLASE. EJEMPLAR DE CLASE 
+		Coche Renault=new Coche();
+		
+		 
+		System.out.println(Renault.getter_largo());
+		
+	} 
+
+}

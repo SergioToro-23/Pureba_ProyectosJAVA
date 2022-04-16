@@ -1,0 +1,92 @@
+package poo;
+
+public class Coche {
+
+	//Atributos y con private se hace uso del encapsulamiento
+	//solo se pueden modificar desde esta clase
+	private int ruedas;
+	private int largo;
+	private int ancho;
+	private int motor;
+	private int peso_plataforma;
+	
+	private String color;
+	private int peso_total;
+	private boolean asientos_cuero, climatizador;
+	
+	 //Constructor
+	public Coche() {
+		ruedas=4;
+		largo=2000;
+		ancho=300;
+		motor=1600;
+		peso_plataforma=500;
+	}
+	
+	
+	
+	//metodo getter(no modifica solo retorna)
+	public String getter_datos() {
+		
+		return "la paltaforma del vehiculo tiene"
+				+ruedas+" ruedas. Mide " + largo/1000+" "
+				+ "metros con un ancho de "+ancho+"cm y"
+		        + " un peso de "+ peso_plataforma+" kg";
+	}
+	
+	
+	
+	
+	 //setter(no devuleve, solo modifica)
+	public void setter_color(String color_coche) {
+		color = color_coche;
+		//color="azul";
+	}
+	//getter
+	public String getter_color() {
+		
+		return "el color del coche es " + color;
+	}
+	
+		
+	 //setter
+	public void setter_configuraAsientos(String asientos_cuero) {
+
+		if(asientos_cuero=="si") {
+			this.asientos_cuero=true;
+		}else {
+			this.asientos_cuero=false;
+		}
+	}
+	//getter
+	public String getter_asientos() {
+		if(asientos_cuero==true) {
+			return "el coche tiene asientos de cuero";
+		}else {
+			return "el coche NO tiene asientos de cuero";
+		}
+	}
+	
+	
+	 //setter
+		public void setter_climatizador(String climatizador) {
+
+			if(climatizador=="si") {
+				this.climatizador=true;
+			}else {
+				this.climatizador=false;
+			}
+		}
+		//getter
+		public String getter_climatizador() {
+			if(climatizador==true) {
+				return "el coche tiene climatizador";
+			}else {
+				return "el coche NO tiene climatizador";
+			}
+		}
+	
+	
+	
+	
+}

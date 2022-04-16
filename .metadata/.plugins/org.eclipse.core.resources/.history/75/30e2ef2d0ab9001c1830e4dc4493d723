@@ -1,0 +1,47 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Arrays_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		List<Integer> list1 = new ArrayList<>();
+		System.out.println("Enter numbers, with a blank line to end");
+		for (String line; !(line = input.nextLine()).trim().isEmpty(); ) {
+		     list1.add(Integer.parseInt(line));
+		}*/
+		
+		/*
+		String [] paises=new String[8];
+		// llenar matriz
+		for(int i=0;i<8;i++) {
+			paises[i]=JOptionPane.showInputDialog("Introduce país" + (i+1));
+		}
+		// mostrarla
+		for(String i:paises) {
+		System.out.println("pais: "+i);	
+			
+		}
+		*/
+		
+	      String s = "Hello World! \n 3 + 3.0 = 6.0 true ";
+
+	      // create a new scanner with the specified String Object
+	      Scanner scanner = new Scanner(s);
+
+	      // print the next line
+	      System.out.println("" + scanner.nextLine());
+
+	      // print the next line again
+	      System.out.println("" + scanner.nextLine());
+
+	      // close the scanner
+	      scanner.close();
+		
+	}
+
+}

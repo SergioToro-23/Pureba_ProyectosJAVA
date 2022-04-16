@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList_ejemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		List list= new ArrayList();
+		list.add("hello");
+		list.add(2);
+		System.out.println(list);
+		System.out.println(list.get(0) instanceof Object);
+		System.out.println(list.get(1) instanceof Integer);
+		*/
+		String message = "hello world!";
+		String newMessage = message.substring(6,12) +  message.substring(6,7);
+		System.out.println(newMessage);
+		
+	}
+
+}

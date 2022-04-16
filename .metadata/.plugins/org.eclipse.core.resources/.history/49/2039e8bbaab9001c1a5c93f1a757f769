@@ -1,0 +1,18 @@
+
+public class JavaLinkedin {
+	Object message() {
+		return "Hello!";
+	}
+	public static void main(String[] args) {
+	System.out.print(new JavaLinkedin().message());
+	System.out.print(new Main2().message());
+	}
+}
+
+class Main2 extends JavaLinkedin {
+	
+	String message() {
+		return "World!";
+	}
+	
+}

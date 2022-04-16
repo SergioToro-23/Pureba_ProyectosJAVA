@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Bucle_adivinar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//variables
+		int numero=0;
+		int NoIntentos;		
+		//objeto para recibir datos de caja de comandos
+		Scanner entrada=new Scanner(System.in);
+		//genera numero aleatorio entero de 0 a 100
+		int random=(int)(Math.random()*100);
+		System.out.printf("el numero es %1i ",random);
+		//bucle indeterminado
+		while (numero!=random) {		
+		System.out.println("Ingresa un numero");
+		numero=entrada.nextInt();
+		if (numero<random) {
+			System.out.println("es mas grande");
+		 }else if(numero>random){
+			 System.out.println("es mas pequeño");
+		 }		
+		}
+		System.out.println("bien");
+	}
+
+}

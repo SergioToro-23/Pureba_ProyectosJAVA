@@ -1,0 +1,25 @@
+package poo;
+
+public class Uso_Coche {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//INSTANCIAR UNA CLASE. EJEMPLAR DE CLASE 
+		Coche micoche=new Coche();
+		 
+		micoche.setter_color("amarillo");	
+		micoche.setter_configuraAsientos("no");
+		micoche.setter_climatizador("si");
+		micoche.setter_peso_total();
+		
+		System.out.println(micoche.getter_datos());
+		System.out.println(micoche.getter_color());
+		System.out.println(micoche.getter_asientos());
+		System.out.println(micoche.getter_climatizador());
+		System.out.println(micoche.getter_peso_total());
+		System.out.println("El precio final del coche es "+micoche.getter_precio()+"pesos");
+		
+	} 
+
+}
