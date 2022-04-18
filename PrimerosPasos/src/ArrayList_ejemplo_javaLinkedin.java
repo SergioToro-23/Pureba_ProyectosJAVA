@@ -7,17 +7,15 @@ public class ArrayList_ejemplo_javaLinkedin {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		/*
+		
 		List list= new ArrayList();
 		Iterator it = list.iterator();
 		list.add("hello");
 		list.add(2);
 		
-		/*
-		for (it.hasNext()) {
-		   System.out.println(it.next());
-		}
-		*/
+		
+		
+		
 		/*
 		//recorre la lista
 		list.forEach(System.out::println);//method reference, print with an unkown parameter name
@@ -25,7 +23,7 @@ public class ArrayList_ejemplo_javaLinkedin {
 		for(Object object : list) {
 			System.out.println(object);
 		}
-		//tamaño lista
+		//tamaï¿½o lista
 		System.out.println(list.size());
 		System.out.println(list.get(0) instanceof Object);
 		System.out.println(list.get(1) instanceof Integer);

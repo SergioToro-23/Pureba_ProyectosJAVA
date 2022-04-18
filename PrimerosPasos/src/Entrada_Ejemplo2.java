@@ -13,7 +13,7 @@ public class Entrada_Ejemplo2 {
 			
 			edad_usuario++;
 						
-			System.out.println("Hola "+ nombre_usuario +". Tendr·s " + edad_usuario + " AÒos.");
+			System.out.println("Hola "+ nombre_usuario +". Tendr√°s " + edad_usuario + " A√±os.");
 		
 	}
 
