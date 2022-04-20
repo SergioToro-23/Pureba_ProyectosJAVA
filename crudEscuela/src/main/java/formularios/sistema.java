@@ -307,7 +307,6 @@ public class sistema extends javax.swing.JFrame {
     }
     
     
-    
     public void mostrarDatos(){
         //titulos tablas
         String[] titulos={"ID ","Nombre","Apellidos","Materia","Calificacio","Estatus"};
@@ -405,8 +404,7 @@ public class sistema extends javax.swing.JFrame {
         
         
     }
-    
-    
+        
     public void limpiarCajas(){
     
         txtNombre.setText("");
@@ -415,8 +413,7 @@ public class sistema extends javax.swing.JFrame {
         cbEstatus.setSelectedItem(null);
         cbMateria.setSelectedItem(null);        
     }
-       
-    
+           
     public void actualizarDatos(){
     
           try{
@@ -457,8 +454,7 @@ public class sistema extends javax.swing.JFrame {
           }
     
     }
-    
-          
+              
     public void insertarDatos(){
     
           try{
@@ -480,7 +476,7 @@ public class sistema extends javax.swing.JFrame {
               pst.setString(5, cbEstatus.getItemAt(seleccionado1));
               
               pst.execute();
-              System.out.println("gola2");
+              
               JOptionPane.showMessageDialog(null,"Registro Exitoso");
               
               
@@ -491,8 +487,7 @@ public class sistema extends javax.swing.JFrame {
           }
     
     }
-    
-    
+        
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
